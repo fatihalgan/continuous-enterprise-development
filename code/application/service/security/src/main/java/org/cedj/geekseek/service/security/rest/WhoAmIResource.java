@@ -24,7 +24,6 @@ public class WhoAmIResource implements TopLevelResource {
     private static final String BASE_JSON_MEDIA_TYPE = "application/vnd.ced+json";
 
     private static final String USER_XML_MEDIA_TYPE = BASE_XML_MEDIA_TYPE + "; type=user";
-    private static final String USER_JSON_MEDIA_TYPE = BASE_JSON_MEDIA_TYPE + "; type=user";
 
     @Inject @Current
     private Instance<User> user;

@@ -1,7 +1,6 @@
 package org.cedj.geekseek.web.rest.attachment.test.integration;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 import javax.enterprise.context.RequestScoped;
